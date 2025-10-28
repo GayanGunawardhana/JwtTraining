@@ -52,6 +52,7 @@ if (app.Environment.IsDevelopment())
     //app.MapOpenApi();
     //Swagger UI Middleware
     app.UseSwagger();
+
     app.UseSwaggerUI();
 
 }
